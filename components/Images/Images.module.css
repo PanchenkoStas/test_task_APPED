@@ -1,3 +1,55 @@
 .img_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.top_images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bottom_images {
+    display: grid;
+    grid-template-areas: "l r";
+}
+
+.bottom_images__left {
+    grid-area: l;
+    display: grid;
+    grid-template-areas:
+        "a a"
+        "b c";
+}
+
+.left1.left1 {
+    grid-area: a;
+}
+
+.left2 {
+    grid-area: b;
+}
+
+.left3 {
+    grid-area: c;
+}
+
+.bottom_images__right {
+    grid-area: r;
+    display: grid;
+    grid-template-areas:
+            "d e"
+            "f f";
+}
+
+.right1 {
+    grid-area: d;
+}
+
+.right2 {
+    grid-area: e;
+}
+
+.right3 {
+    grid-area: f;
 }

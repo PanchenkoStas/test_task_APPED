@@ -68,13 +68,12 @@ export const Services: React.FC = () => {
                         <span>Here are some examples of the quality of our app projects</span>
                     </div>
                     <div className={style.services_buttons}>
-                        <Button variant={"contained"}>SHOW ALL</Button>
+                        <Button variant={"contained"} className={style.active_button}>SHOW ALL</Button>
                         <Button>BUSINESS APPS </Button>
                         <Button>CONSTRUCTION</Button>
                         <Button>CUSTOM APP VENTURES</Button>
                         <Button>RESTAURANTS</Button>
                     </div>
-
             </div>
         </div>
     )

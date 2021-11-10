@@ -129,4 +129,8 @@
     border-radius: 0;
     border: 1px solid gray;
     color: #838383;
+    margin: 0 10px 0 0 ;
+}
+.services_buttons button.active_button {
+    color: #FFFFFF;
 }

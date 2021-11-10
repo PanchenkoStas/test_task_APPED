@@ -1,4 +1,102 @@
 .form_container {
     background-image: url(../accets/BackgroundTitle.jpg);
     height: 672px;
+    display: flex;
+    justify-content: center;
+}
+
+.form_area {
+    width: 520px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 50px 0 0;
+}
+
+.form_title {
+    display: flex;
+    align-items: flex-end;
+}
+
+.form_title span {
+    font-family: "BebasNeue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 100%;
+    padding: 0 0 10px 0;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.form_descr_block {
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 50px;
+}
+
+.form_descr_title > div> span {
+    font-family: "BebasNeue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.form_descr_title div {
+    display: flex;
+    align-items: flex-end;
+}
+.form_descr_contacts {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 20px 0 0 0;
+}
+.form_descr_contacts_block > div {
+    padding: 0 0 10px 0;
+}
+
+.form_descr_contacts_block > div > span {
+    padding: 0 20px 0 0;
+    font-family: "MochiyPopPOne", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 260%;
+    color: #FFFFFF;
+}
+.form {
+
+}
+
+.form_field.form_field:hover {
+    border: none;
+    border-radius: 0;
+}
+
+.form_field.form_field {
+    border-radius: 0;
+    border: none;
+    background-color: #FFFFFF;
+}
+.form_field.form_field fieldset {
+    display: none;
+}
+
+.form_field.form_field > label {
+    color: black;
+}
+
+.form_field.form_field > input::placeholder {
+    color: black;
+}
+.form_textarea_height {
+    height: 200px;
+    overflow: auto;
 }
