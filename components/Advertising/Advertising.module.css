@@ -1,3 +1,230 @@
-.advertising_content {
+.advertising_container {
     height: 974px;
+}
+
+.advertising_content {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.advertising_panel {
+    width: 100%;
+    display: flex;
+    padding: 140px 0 0 0;
+    justify-content: space-around;
+}
+
+.advertising_panel__decsr_block {
+    width: 50%;
+    display: grid;
+    grid-template-areas:
+        "t"
+        "d";
+}
+
+.advertising_panel__decsr_title {
+    grid-area: t;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 50px 0 0;
+}
+
+.advertising_panel__decsr_title > div {
+    width: 453px;
+    font-family: "BebasNeue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #3C7DB4;
+}
+
+.advertising_panel__decsr {
+    grid-area: d;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 50px 0 0;
+}
+
+.advertising_panel__decsr > div {
+    width: 453px;
+    font-family: "MochiyPopPOne", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 260%;
+    color: #838383;
+}
+
+.advertising_panel__stickers {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 0 0 50px;
+}
+
+.advertising_panel__stickers .advertising_panel__sticker {
+    margin-bottom: 20px;
+}
+
+.advertising_panel__sticker {
+    height: 70px;
+    display: flex;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+.sticker_dev {
+    width: 420px;
+}
+
+.sticker_des {
+    width: 400px;
+}
+
+.sticker_comp {
+    width: 380px;
+}
+
+.advertising_panel__sticker_img {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.advertising_panel__sticker_ability {
+    width: 80%;
+    padding: 0 20px 0 0;
+}
+
+.advertising_panel__sticker_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    color: #838383;
+}
+
+.percent {
+    color: #3C7DB4;
+}
+
+.advertising_panel__sticker_status_bar {
+    margin: 10px 0;
+    height: 3px;
+    width: 100%;
+    background-color: #3C7DB4;
+    border: 2px solid #3C7DB4;
+    border-radius: 3px;
+}
+
+.advertising {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.advertising__images_block {
+    display: flex;
+    margin: 50px 0;
+}
+
+.advertising__images_block > div {
+    padding: 0 30px;
+}
+
+.advertising_slider {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #FFFFFF;
+}
+
+.slider_container {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #3C7DB4;
+    width: 50%;
+}
+
+.slider_prev {
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.slider_next {
+    width: 10%;
+    display: flex;
+    align-items: center;
+justify-content: flex-end;
+}
+
+.slider_button.slider_button {
+    width: 50px;
+}
+
+.slider_content {
+
+}
+
+.slider_title_content {
+    display: flex;
+}
+
+.slider_title {
+    font-family: "BebasNeue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.slider_rating {
+    display: flex;
+    align-items: center;
+}
+
+.slider_descr {
+    font-family: "MochiyPopPOne", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 200%;
+}
+
+.slider_bottom_bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.slider_bar_progress {
+    display: flex;
+    width: 20%;
+    margin: 10px 50px 70px;
+}
+
+.progress_elem {
+    margin: 0 20px;
+    height: 3px;
+    width: 100%;
+    background-color: #838383;
+    border: 2px solid #838383;
+    border-radius: 3px;
+}
+.active_progress_elem {
+    background-color: #3C7DB4;
+    border: 2px solid #3C7DB4;
 }
