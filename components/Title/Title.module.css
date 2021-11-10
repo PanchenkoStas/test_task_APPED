@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+.main_title {
+    background-image: url(../accets/BackgroundTitle.jpg);
+    height: 854px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    margin: 100px 0 0 0;
+}
+
+.logo {
+    width: 134.59px;
+    height: 48px;
+    left: 181px;
+    top: 96px;
+}
+
+.links_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 840px;
+    height: 37px;
+}
+
+.links_container div {
+    margin: 0 10px 0 0;
+    color: white;
+
+}
+
+.button.button {
+    color: white;
+    border-radius: 0;
+    margin: 0 5px 0 0;
+}
+
+.button_head__get_quote,
+.button_head__get_quote:hover {
+    border: 1px solid;
+}
+.button_get_quote {
+    width: 160px;
+}
+
+.button_contained {
+    background-color: #0B8FFF;
+}
+
+.main__text_content {
+    margin: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__top_text {
+    font-family: "BebasNeue", sans-serif;
+    width: 539px;
+    height: 135px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 57px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main__bottom_text {
+    width: 542px;
+    height: 80px;
+    font-family: "MochiyPopPOne", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.phones_block {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    padding: 5px 0 0 0;
+}
+
+.phones_block div {
+    position: relative;
+    top: 4px;
+}
+
+.phones_block__phone1 {
+    left: 120px;
+}
+
+.phones_block__phone2 {
+    left: 80px;
+}
+
+.phones_block__phone3 {
+    left: 42px;
+}
+
+.phones_block__phone4 {
+    z-index: 3;
+}
+
+.phones_block__phone5 {
+    z-index: 2;
+    right: 42px;
+}
+
+.phones_block__phone6 {
+    z-index: 1;
+    right: 80px;
+}
+
+.phones_block__phone7 {
+    right: 120px;
+}

@@ -1,0 +1,132 @@
+
+.services_container {
+    height: 972px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.services_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.services_cards_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 480px;
+}
+
+.services_cards_container .services_card {
+    margin: 20px;
+    border-radius: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.services_card {
+    width: 240px;
+    height: 200px;
+}
+
+.services_card > div {
+    width: 100%;
+    position: relative;
+    padding: 20%;
+}
+
+.services_card > div > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services_card__text {
+    margin: 20px 0 0 0;
+    color: #2b80b3;
+}
+
+.services_descr {
+    width: 520px;
+    height: 480px;
+    padding: 0 0 0 30px;
+}
+
+.services_descr div {
+    padding: 50px 0 0 0;
+}
+
+.services_descr > div > span {
+    display: block;
+    text-align: start;
+    font-family: "BebasNeue", sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 100%;
+    color: #3C7DB4;
+}
+
+.services_descr__text {
+    display: block;
+    padding: 40px 0 0 0;
+    font-family: "MochiyPopPOne", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 260%;
+    color: #838383;
+}
+
+.services_bottom_content div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.services_bottom_content > div > div {
+    width: 100%;
+    font-family: "BebasNeue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: #3C7DB4;
+}
+
+.services_bottom_content > div > span {
+    display: block;
+    padding: 20px 0 0 0;
+    font-family: "MochiyPopPOne", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: #838383;
+}
+
+.services_bottom_content {
+    width: 100%;
+}
+
+.services_buttons {
+    padding: 30px 0 0 0;
+}
+
+.services_buttons button {
+    border-radius: 0;
+    border: 1px solid gray;
+    color: #838383;
+}
