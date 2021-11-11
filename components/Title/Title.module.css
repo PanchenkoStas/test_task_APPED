@@ -43,9 +43,11 @@
 .button_head__get_quote,
 .button_head__get_quote:hover {
     border: 1px solid;
+    color: white;
 }
 .button_get_quote {
     width: 160px;
+    color: white;
 }
 
 .button_contained {
